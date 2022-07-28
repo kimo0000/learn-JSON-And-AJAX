@@ -1,0 +1,94 @@
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(0,0,0, .5);
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0px 5px 12px #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+@media (max-width: 767px) {
+     header {
+        flex-direction: column;
+        text-align: center;
+     }
+
+     header button {
+        width: fit-content;
+        padding: 5px 10px;
+        margin: 10px auto;
+     }
+}
+
+h1 {
+    font-size: 30px;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 6px;
+    background-color: #f50;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 5px #fff;
+    transition: .1s;
+}
+
+button:active {
+    box-shadow: 0px 0px;
+    transform: translateY(1px);
+    background-color: green;
+}
+
+.disabled {
+    background-color: lightgrey;
+    color: #ddd;
+    cursor: not-allowed;
+    pointer-events: none;
+    box-shadow: none;
+}
+
+hr {
+    background-color: #fff;
+    width: 100%;
+    height: 1px;
+    margin-top: 10px;
+}
+
+.text p {
+    padding-left: 10px;
+}
+
+.text p:nth-child(2),
+.text p:nth-child(3),
+.text p:last-of-type span {
+    color: white;
+}
+
+.text p:first-of-type span > span {
+    color: blue;
+}

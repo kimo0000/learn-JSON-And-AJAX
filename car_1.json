@@ -1,0 +1,20 @@
+[
+    {
+      "name": "maserati",
+      "model": "mercedes",
+      "type": {
+        "type_one": ["2x4", "4x4"],
+        "type_two": ["G50", "TG_Line"]
+      },
+      "years": "2014"
+    },
+    {
+      "name": "I20",
+      "model": "Hynday",
+      "type": {
+        "type_one": ["normal", "option"],
+        "type_two": ["TS10", "TS20"]
+      },
+      "years": "2016"
+    }
+]

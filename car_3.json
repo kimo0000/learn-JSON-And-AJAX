@@ -1,0 +1,20 @@
+[
+    {
+      "name": "KIA_Sportage",
+      "model": "KIA",
+      "type": {
+        "type_one": ["confortable", "not_confortable"],
+        "type_two": ["TS_8", "TS_10"]
+      },
+      "years": "2015"
+    },
+    {
+      "name": "KIa_Rio",
+      "model": "KIA",
+      "type": {
+        "type_one": ["for_family", "for_children"],
+        "type_two": ["AIR_LINE", "AIR_FRESH"]
+      },
+      "years": "2018"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+      "name": "peuget_207",
+      "model": "peuget",
+      "type": {
+        "type_one": ["petite", "grande"],
+        "type_two": ["F_1", "F_2"]
+      },
+      "years": "2010"
+    },
+    {
+      "name": "peuget_208",
+      "model": "peuget",
+      "type": {
+        "type_one": ["new", "old"],
+        "type_two": ["GTI", "GTX"]
+      },
+      "years": "2020"
+    }
+]
